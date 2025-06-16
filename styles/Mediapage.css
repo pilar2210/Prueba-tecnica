@@ -1,0 +1,52 @@
+.page-title {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 1.8rem;
+}
+
+.state {              /* “Cargando” / “Error” */
+  text-align: center;
+  margin-top: 40px;
+  font-size: 1.3rem;
+}
+
+.grid {
+  display: grid;
+  gap: 24px;
+  padding: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+}
+
+.card {
+  transition: 0.3s;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+  display: block;
+}
+
+.card:hover {
+  opacity: 0.6;
+  border: 2px solid white;
+}
+
+.title {
+  margin-top: 8px;
+  background: none;
+  border: none;
+  color: #eee;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+.year-filter {
+  margin: 1rem auto;
+  padding: 0.5rem;
+  display: block;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 200px;
+}
