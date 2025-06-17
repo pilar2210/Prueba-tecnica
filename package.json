@@ -1,0 +1,26 @@
+{
+  "name": "prueba-react",
+  "version": "1.0.0",
+  "description": "Instrucciones funcionales\r Página de Inicio: con enlaces a \"Series\" y \"Películas\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pilar2210/prueba-react-chedoc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pilar2210/prueba-react-chedoc/issues"
+  },
+  "homepage": "https://github.com/pilar2210/prueba-react-chedoc#readme",
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.6.2",
+    "redux": "^5.0.1"
+  }
+}
